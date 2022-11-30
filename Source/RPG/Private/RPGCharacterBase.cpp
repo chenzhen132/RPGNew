@@ -50,7 +50,6 @@ void ARPGCharacterBase::SetupPlayerInputComponent(class UInputComponent* PlayerI
 {
 	//Bind Action
 	check(PlayerInputComponent);
-	bool bIsPlayer = GetController()->IsPlayerController();
 }
 
 
